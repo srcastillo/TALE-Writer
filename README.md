@@ -1,8 +1,8 @@
 # TALE-Writer
 
-The TALE Writer is a Python-based computational design tool for the efficient design ot TALE-based technologies: TALENs (https://pubmed.ncbi.nlm.nih.gov/26854857/) and DdCBEs (https://www.nature.com/articles/s41586-020-2477-4). 
+The TALE Writer is a Python-based computational design tool for the efficient design ot TALE-based technologies: TALENs (https://pubmed.ncbi.nlm.nih.gov/26854857/) and DdCBEs (https://www.nature.com/articles/s41586-020-2477-4). It is recommended to run the TALE Writer in the Jupypter Notebook.
 
-TALE Writer can be used to:
+**TALE Writer can be used to:**
 
 (I) Design TALENs around user-specified target sequences.
 (II) Design C-to-T base editors against 5’-TC-3’ loci.
