@@ -1,4 +1,4 @@
-**INTRODUCTION**<br><br>
+**INTRODUCTION:**<br><br>
 Welcome to TALE Writer! A Python-based design tool for the efficient design of TALE-based technologies. This script was made for the FusX TALE Base Editor (FusXTBE) project in the Precision Gene Editing Laboratory of Dr. Stephen C. Ekker at the Mayo Clinic by Ph.D candidate Santiago Restrepo-Castillo. The FusXTBE technology is based on the FusX assembly system, and on the first-ever mitochondrial base editor, DdCBE, which was developed by the Liu Group.<br><br>
 Broadly, TALE Writer can be used to design TALENs or FusXTBEs against a specific target sequence. In particular, FusXTBE design allows mapping all potential 5'-TC-3' target sites for C-to-T base editing in a given sequence. Additionally, FusXTBEs can be specifically designed for premature termination codon (PTC) induction (a DNA edit resulting in the generation of a non-functional gene product due to the premature termination of translation). For this end, the script looks for the following target motifs within any given sequence:<br>
 * The 5’-TGA-3’ motif (TGA in -frame), in which a G-to-A edit results in the stop codon UAA.<br>
