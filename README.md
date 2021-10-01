@@ -40,11 +40,11 @@ Finally, once a design permutation or a set of design permutations has been chos
 * For FusXTBE design, the program may ask to add nucleotides to either the 5' end, the 3' end, or both ends of the input sequence. In that case, it is possible that by adding the suggested number of nucleotides, new potential targets for C-to-T base editing are detected. One possible way around this issue is to add 'junk' extra nucleotides whenever required, such as a consecutive strecht of Ts. The user needs to consider extra targets or junk sequences when analyzing any design permutations.<br><br>
 * The FusX recipe tool linked to this script works for TALE arrays targeting sequences 15- to 17-bp-long. To assemble TALE-based technologies with TALE arrays that target shorter or longer sequences, alternative assembly approaches or adaper kits must be used.
 
-**Relevant lLinks:**
+**Relevant links:**
 * The FusX TALE base editor: https://www.biorxiv.org/content/10.1101/2021.05.18.444740v1
 * FusX: A rapid one-step TALE assembly system: https://www.liebertpub.com/doi/10.1089/hum.2015.172
 * Ekker Lab FusX TALEN Assembly System: https://www.addgene.org/kits/ekker-fusx/#kit-contents
-* CRISPR-free mitochondrial base editing: https://www.nature.com/articles/s41586-020-2477-4
+* CRISPR-free mitochondrial base editing: https://www.nature.com/articles/s41586-020-2477-4<br><br>
  
 <div style="text-align: right">
 Santiago Restrepo-Castillo<br>
