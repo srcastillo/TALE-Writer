@@ -45,7 +45,7 @@ For PTC induction with FusXTBEs, TALE Writer identifies the following sequence m
 
 #### FusXTBE design
 
-* **Output sequence:** The output sequence corresponds to the input sequence with all the potentially editable TC or GA motifs capitalized and highlighted in blue. Alternatively, for PTC induction, the output sequence consists of the input sequence with all targets amenable to PTC induction capitalized and highlighted in blue.<br><br>
+* **Output sequence:** The output sequence corresponds to the input sequence with all the potentially editable TC or GA motifs capitalized and highlighted in blue. Alternatively, for PTC induction, the output sequence consists of the input sequence with all targets amenable to PTC induction capitalized and highlighted in blue.<br>
 * **Output table:** The output table summarizes all the possible FusXTBE design permutations around all the C-to-T base editing targets identified within the input sequence, constrained by the design parameters. From left to right, the table contains the target index (TGT), the design index of each design permutation (DSG), the enzymes which restriction sites are lost after editing (LOSS), the enzymes which restriction sites are gained after editing (GAIN), the number of potential off-target edits within the protospacer (X), the top strand 5'-to-3' left TALE binding sequence (LEFT SEQUENCE), the bottom strand 5'-to-3' right TALE binding sequence (RIGHT SEQUENCE), and the top strand 5'-to-3' protospacer sequence (SPACER) with the desired cut site capitalized and highlighted in blue.<br><br>
 
 ## FAQ & Troubleshooting
