@@ -53,17 +53,6 @@ TALE Writer communicates with and/or references the following separate libraries
 * [pandas](https://pandas.pydata.org/)
 * [NumPy](https://numpy.org/)
 * [sys](https://docs.python.org/3/library/sys.html)
-* [Colab](https://research.google.com/colaboratory/)<br><br>
+* [Colab](https://research.google.com/colaboratory/)<br>
+
 We thank all their contributors and maintainers!
-
-**License and Disclaimer**<br><br>
-This is not an officially supported Google product.
-
-**TALE Writer code license**<br><br>
-Licensed under the GNU General Public License, Version 3.0.
- 
-<div style="text-align: right">
-Santiago Restrepo-Castillo<br>
-RestrepoCastillo.Santiago@mayo.edu<br>
-Ph.D. Candidate | Virology and Gene Therapy<br>
-Mayo Clinic Graduate School of Biomedical Sciences</div>
