@@ -49,11 +49,11 @@ Finally, once a design permutation or a set of design permutations has been chos
 
 ## Acknowledgements
 TALE Writer communicates with and/or references the following separate libraries and packages:
-* [Colorama](https://pypi.org/project/colorama/)
-* [tabulate](https://pypi.org/project/tabulate/)
-* [pandas](https://pandas.pydata.org/)
-* [NumPy](https://numpy.org/)
-* [sys](https://docs.python.org/3/library/sys.html)
 * [Colab](https://research.google.com/colaboratory/)<br>
+* [Colorama](https://pypi.org/project/colorama/)
+* [NumPy](https://numpy.org/)
+* [pandas](https://pandas.pydata.org/)
+* [sys](https://docs.python.org/3/library/sys.html)
+* [tabulate](https://pypi.org/project/tabulate/)
 
 We thank all their contributors and maintainers!
