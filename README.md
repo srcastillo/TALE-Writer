@@ -77,7 +77,7 @@ Licensed under the GNU General Public License, Version 3.0 (the "License"). You 
 
 ### Third-party software
 
-Use of the third-party software, libraries or code referred to in the [Acknowledgements section](https://github.com/srcastillo/TALE-Writer/blob/main/README.md#acknowledgements) in the TALE Writer README may be governed by separate terms and conditions or license provisions. Your use of the third-party software, libraries or code is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use.
+Use of the third-party software, libraries or code referred to in the [Acknowledgements](https://github.com/srcastillo/TALE-Writer/blob/main/README.md#acknowledgements) section in the TALE Writer README may be governed by separate terms and conditions or license provisions. Your use of the third-party software, libraries or code is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use.
 
 ## More information
 
