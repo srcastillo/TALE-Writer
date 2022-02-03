@@ -48,6 +48,29 @@ For PTC induction with FusXTBEs, TALE Writer identifies the following sequence m
 * **Output sequence:** The output sequence corresponds to the input sequence with all the potentially editable TC or GA motifs capitalized and highlighted in blue. Alternatively, for PTC induction, the output sequence consists of the input sequence with all targets amenable to PTC induction capitalized and highlighted in blue.<br>
 * **Output table:** The output table summarizes all the possible FusXTBE design permutations around all the C-to-T base editing targets identified within the input sequence, constrained by the design parameters. From left to right, the table contains the target index (TGT), the design index of each design permutation (DSG), the enzymes which restriction sites are lost after editing (LOSS), the enzymes which restriction sites are gained after editing (GAIN), the number of potential off-target edits within the protospacer (X), the top strand 5'-to-3' left TALE binding sequence (LEFT SEQUENCE), the bottom strand 5'-to-3' right TALE binding sequence (RIGHT SEQUENCE), and the top strand 5'-to-3' protospacer sequence (SPACER) with the desired cut site capitalized and highlighted in blue.<br><br>
 
+## General information
+
+* There can be dozens design permutations (pairs of TALE binding sequences) per target. One way to decrease output size is to define constrained custom design parameters. It is up to the user to select the design permutation that best fits their specific application.
+
+* The [FusX recipe tool](http://www.talendesign.org/pFUXrecipeInput.php) referenced in this script works for TALE arrays targeting sequences 15- to 17-bp-long. To assemble TALE-based technologies with TALE arrays that target shorter or longer sequences, alternative assembly approaches or adaper kits must be used.
+
+* Loss and gain of restriction sites for genotyping:
+  * In TALEN design, TALE Writer identifies potential loss of restriction sites within the target region.
+  * In FusXTBE design, TALE Writer identifies both loss and gain of restriction sites within the target region.
+
+* For PTC induction with FusXTBEs, TALE Writer identifies the following sequence motifs:
+
+  *   The 5’-TGA-3’ motif (TGA in -frame), in which a G-to-A edit results in the stop codon UAA.
+  *   The 5’-TCAA-3’ motif (CAA in-frame), in which a C-to-T edit results in the stop codon UAA.
+  *   The 5’-TCAG-3’ motif (CAG in-frame), in which a C-to-T edit results in the stop codon UAG.
+
+* You can find more information about TALENs, mitochondrial base editors, the FusX assembly system, and TALE Writer here:
+
+  * [CRISPR-free mitochondrial base editing paper](https://www.nature.com/articles/s41586-020-2477-4)
+  * [FusX TALE base editor (FusXTBE) paper](https://www.liebertpub.com/doi/full/10.1089/crispr.2021.0061)
+  * [FusX assembly system paper](https://www.liebertpub.com/doi/10.1089/hum.2015.172?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub++0pubmed)
+  * [TALE Writer on GitHub](https://github.com/srcastillo/TALE-Writer)
+
 ## Citing this work
 
 Any publication that discloses findings arising from using this notebook should cite the [FusXTBE paper](https://www.liebertpub.com/doi/full/10.1089/crispr.2021.0061), in which TALE Writer was first reported.<br>
@@ -78,16 +101,3 @@ Licensed under the GNU General Public License, Version 3.0 (the "License"). You 
 ### Third-party software
 
 Use of the third-party software, libraries or code referred to in the [Acknowledgements](https://github.com/srcastillo/TALE-Writer/blob/main/README.md#acknowledgements) section in the TALE Writer README may be governed by separate terms and conditions or license provisions. Your use of the third-party software, libraries or code is subject to any such terms and you should check that you can comply with any applicable restrictions or terms and conditions before use.
-
-## More information
-
-* In general, there can be dozens design permutations (pairs of TALE binding sequences) per target. One way to decrease output size is to define constrained custom design parameters. For example, by making the minimum and maximum lengths of all left arms, right arms, and spacers the same (e.g., using a 15-15-15 design rule), output size can be significantly decreased. It is up to the user to select the design permutation that best fits their specific application.<br>
-* The FusX recipe tool linked to this script works for TALE arrays targeting sequences 15- to 17-bp-long. To assemble TALE-based technologies with TALE arrays that target shorter or longer sequences, alternative assembly approaches or adaper kits must be used. Additionally, to assemble TALE arrays targeting sequences 17-bp-long, the FusX extender kit must be used.
-
-You can find relevant information about TALENs, mitochondrial base editors, the FusX assembly system, and TALE Writer in the following links:
-
-* [CRISPR-free mitochondrial base editing paper](https://www.nature.com/articles/s41586-020-2477-4)
-* [FusX TALE base editor (FusXTBE) paper](https://www.liebertpub.com/doi/full/10.1089/crispr.2021.0061)
-* [FusX assembly system paper](https://www.liebertpub.com/doi/10.1089/hum.2015.172?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub++0pubmed)
-* [TALE Writer on GitHub](https://github.com/srcastillo/TALE-Writer)
-
