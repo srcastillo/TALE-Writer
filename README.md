@@ -8,7 +8,10 @@ TALE Writer is broadly divided into a design permutations section, and a TALE RV
 
 Finally, once a design permutation or a set of design permutations has been chosen, either for TALEN or FusXTBE work, the user can utilize the TALE RVD sequences section to obtain the RVDs that correspond to each specific target sequence. The RVD sequences can then be submitted at http://www.talendesign.org/pFUXrecipeInput.php to obtain their respective FusX recipes for one-step assembly.<br>
 
-## USER-DEFINED INPUT
+## Inputs & Outputs
+
+### Inputs
+
 * **TALENs:**<br><br>
   * **Use default design parameters?** Type 'no' to define custom design parameters or 'yes' to proceed.<br>
     * All default minima and maxima are 15 and 17 bp, respectively. Custom limits are between 10 and 25 bp.<br>
@@ -27,7 +30,8 @@ Finally, once a design permutation or a set of design permutations has been chos
     * **Alphanumeric filename:** Type an alphanumeric filename to save the results<br>
   * **New sequence?** Type 'yes' to try another sequence or 'no' to exit.
  
-## UNDERSTANDING THE OUTPUT
+### Outputs
+
 * **Output sequence:** <br><br>
   * For TALEN design, the output sequence is the input sequence with the sequence of the target coordinate capitalized and highlighted in blue.<br><br>
   * For FusXTBE design, the output sequence corresponds to the input sequence with all the potentially editable TC or GA motifs capitalized and highlighted in blue. Alternatively, for PTC induction, the output sequence consists of the input sequence with all targets amenable to PTC induction capitalized and highlighted in blue.<br><br>
