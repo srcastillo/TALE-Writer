@@ -2,12 +2,6 @@
 
 TALE Writer allows you to design TALE nucleases (TALENs) and FusX TALE Base Editors (FusXTBEs) for C-to-T editing. TALENs can be designed against a specific target coordinate or against multiple targets within a given sequence. FusXTBEs can be designed against all 5'-TC-3' target sites within a given sequence or for premature termination codon (PTC) induction in a protein-coding gene. Subsequently, the repeat variable diresidues (RVDs) corresponding to the left and right sequences of the designed technologies can be determined for FusX-based assembly.
 
-For PTC induction with FusXTBEs, TALE Writer identifies the following sequence motifs:
-
-* The 5’-TGA-3’ motif (TGA in -frame), in which a G-to-A edit results in the stop codon UAA.<br>
-* The 5’-TCAA-3’ motif (CAA in-frame), in which a C-to-T edit results in the stop codon UAA.<br>
-* The 5’-TCAG-3’ motif (CAG in-frame), in which a C-to-T edit results in the stop codon UAG.<br>
-
 ## Inputs & Outputs
 
 ### Inputs
