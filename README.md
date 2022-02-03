@@ -46,20 +46,20 @@ Finally, once a design permutation or a set of design permutations has been chos
 * Ekker Lab FusX TALEN Assembly System: https://www.addgene.org/kits/ekker-fusx/#kit-contents
 * CRISPR-free mitochondrial base editing: https://www.nature.com/articles/s41586-020-2477-4<br><br>
 
-**Acknowledgements**<br>
+**Acknowledgements**<br><br>
 TALE Writer communicates with and/or references the following separate libraries and packages:
 * [Colorama](https://pypi.org/project/colorama/)
 * [tabulate](https://pypi.org/project/tabulate/)
 * [pandas](https://pandas.pydata.org/)
 * [NumPy](https://numpy.org/)
 * [sys](https://docs.python.org/3/library/sys.html)
-* [Colab](https://research.google.com/colaboratory/)<br>
+* [Colab](https://research.google.com/colaboratory/)<br><br>
 We thank all their contributors and maintainers!
 
-**License and Disclaimer**<br>
+**License and Disclaimer**<br><br>
 This is not an officially supported Google product.
 
-**TALE Writer code license**<br>
+**TALE Writer code license**<br><br>
 Licensed under the GNU General Public License, Version 3.0.
  
 <div style="text-align: right">
