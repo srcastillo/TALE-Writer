@@ -1,6 +1,12 @@
 # TALE Writer
 
-TALE Writer allows you to design TALE nucleases (TALENs) and FusX TALE Base Editors (FusXTBEs) for C-to-T editing. TALENs can be designed against a specific target coordinate or against multiple targets within a given sequence. FusXTBEs can be designed against all 5'-TC-3' target sites within a given sequence or for premature termination codon (PTC) induction in a protein-coding gene. Subsequently, the repeat variable diresidues (RVDs) corresponding to the left and right sequences of the designed technologies can be determined for FusX-based assembly.
+This Colab notebook allows designing TALENs, DdCBEs, and TALEDs. 
+
+TALENs can be designed against a specific target coordinate or against multiple targets within a given sequence. 
+
+DdCBEs with the DddA/DddA6 or the DddA11 effector domain can be designed either against all potentially editable sites within a given sequence, for the introduction of nonsense mutations in protein-coding genes, or against a specific target site within a given sequence. 
+
+Subsequently, the repeat variable diresidues (RVDs) of the left and right TALE binding sequences and their corresponding FusX recipes can be obtained of FusX-based assembly.
 
 ## Inputs & Outputs
 
