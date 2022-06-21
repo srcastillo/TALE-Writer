@@ -8,46 +8,6 @@ DdCBEs with the DddA/DddA6 or the DddA11 effector domain can be designed either 
 
 Subsequently, the repeat variable diresidues (RVDs) of the left and right TALE binding sequences and their corresponding FusX recipes can be obtained of FusX-based assembly.
 
-## Inputs & Outputs
-
-### Inputs
-
-#### TALEN design
-
-  * **Use default design parameters?** Type 'no' to define custom design parameters or 'yes' to proceed.<br>
-    * Default left/right arm length ranges between 15-16 bp.<br>
-    * Default spacer length ranges are 14-16 bp.<br>
-  * **Sequence (5'-to-3'):** Input sequence containing the cut site region.<br>
-  * **Target coordinate:** The coordinate within the input sequence that corresponds to the desired cut site.<br>
-  * **Save results as CSV file?** Type 'yes' to save the results or 'no' to proceed.<br>
-    * **Alphanumeric filename:** Type an alphanumeric filename to save the results<br>
-  * **New sequence?** Type 'yes' to try another sequence or 'no' to exit.
-  * **New analysis?** Type 'yes' to perform a new analysis or 'no' to exit.
-
-#### FusXTBE design
-
-  * **5'-TC-3' or PTC induction?** Choose whether to design base editors against all 5'-TC-3' motifs within a given sequence or for PTC induction.
-  * **Use default design parameters?** Type 'no' to define custom design parameters or 'yes' to proceed.<br>
-    * Default parameters and limits for custom parameters regarding arms and spacer length are the same as for TALEN design.
-    * **Target window**: The script looks for all potential target sites within the protospacer region at least 'n' bp from the target sequence of either TALE repeat array, where 'n' is the target window. For example, if the length of the spacer is 16 bp and the target window is 4 bp, target Cs/Gs are searched from the 5th to the 12th bp within the protospacer. The default target window is 4 bp. Custom target windows cannot be less than 0 or greater than half the length of the spacer minus 1 bp if spacer length is even or minus 1/2 bp if spacer length is odd.
-  * **Sequence (5'-to-3'):** Input sequence containing the target(s) for base editing.<br>
-  * **Save results as CSV file?** Type 'yes' to save the results or 'no' to proceed.<br>
-    * **Alphanumeric filename:** Type an alphanumeric filename to save the results<br>
-  * **New sequence?** Type 'yes' to try another sequence or 'no' to exit.
-  * **New analysis?** Type 'yes' to perform a new analysis or 'no' to exit.
- 
-### Outputs
-
-#### TALEN design
-
-* **Output sequence:** The output sequence is the input sequence with the sequence of the target coordinate capitalized and highlighted in blue.<br>
-* **Output table:** The output table summarizes all the possible TALEN design permutations around the specified target, constrained by the design parameters. From left to right, the table contains the target index (TGT), the design index of each design permutation (DSG), the enzymes which restriction sites may be lost after double-strand break (LOSS), the top strand 5'-to-3' left TALE binding sequence (LEFT SEQUENCE), the bottom strand 5'-to-3' right TALE binding sequence (RIGHT SEQUENCE), and the top strand 5'-to-3' protospacer sequence (SPACER) with the desired cut site capitalized and highlighted in blue.
-
-#### FusXTBE design
-
-* **Output sequence:** The output sequence corresponds to the input sequence with all the potentially editable TC or GA motifs capitalized and highlighted in blue. Alternatively, for PTC induction, the output sequence consists of the input sequence with all targets amenable to PTC induction capitalized and highlighted in blue.<br>
-* **Output table:** The output table summarizes all the possible FusXTBE design permutations around all the C-to-T base editing targets identified within the input sequence, constrained by the design parameters. From left to right, the table contains the target index (TGT), the design index of each design permutation (DSG), the enzymes which restriction sites are lost after editing (LOSS), the enzymes which restriction sites are gained after editing (GAIN), the number of potential off-target edits within the protospacer (X), the top strand 5'-to-3' left TALE binding sequence (LEFT SEQUENCE), the bottom strand 5'-to-3' right TALE binding sequence (RIGHT SEQUENCE), and the top strand 5'-to-3' protospacer sequence (SPACER) with the desired cut site capitalized and highlighted in blue.<br><br>
-
 ## General information
 
 * There can be dozens design permutations (pairs of TALE binding sequences) per target. One way to decrease output size is to define constrained custom design parameters. It is up to the user to select the design permutation that best fits their specific application.
