@@ -10,25 +10,26 @@ Subsequently, the repeat variable diresidues (RVDs) of the left and right TALE b
 
 ## General information
 
-* There can be dozens design permutations (pairs of TALE binding sequences) per target. One way to decrease output size is to define constrained custom design parameters. It is up to the user to select the design permutation that best fits their specific application.
+* There can be dozens of design permutations (pairs of TALE binding sequences) per target. One way to decrease output size is to define constrained custom design parameters. It is up to the user to select the design permutation that best fits their specific application.
 
 * The [FusX recipe tool](http://www.talendesign.org/pFUXrecipeInput.php) referenced in this script works for TALE arrays targeting sequences 15- to 17-bp-long. To assemble TALE-based technologies with TALE arrays that target shorter or longer sequences, alternative assembly approaches or adaper kits must be used.
 
 * Loss and gain of restriction sites for genotyping:
   * In TALEN design, TALE Writer identifies potential loss of restriction sites within the target region.
-  * In FusXTBE design, TALE Writer identifies both loss and gain of restriction sites within the target region.
+  * In base editor design, TALE Writer identifies both loss and gain of restriction sites within the target region.
 
-* For PTC induction with FusXTBEs, TALE Writer identifies the following sequence motifs:
+* In general, for the introduction of nonsense mutations using DdCBEs, the following sequence motifs are identified:
 
-  *   The 5’-TGA-3’ motif (TGA in -frame), in which a G-to-A edit results in the stop codon UAA.
-  *   The 5’-TCAA-3’ motif (CAA in-frame), in which a C-to-T edit results in the stop codon UAA.
-  *   The 5’-TCAG-3’ motif (CAG in-frame), in which a C-to-T edit results in the stop codon UAG.
+  *   In-frame 5’-TGA-3’/5'-TGG-3'/5'-GGA-3'/5'-GGG-3' motifs, in which specific G-to-A edit could result in the stop codons UAA, UAG, AGA, or AGG, respectively.
+  *   The 5’-HCAA-3’ motif (H: A, T, or C, CAA in-frame), in which a C-to-T edit results in the stop codon UAA.
+  *   The 5’-HCAG-3’ motif (H: A, T, or C, CAG in-frame), in which a C-to-T edit results in the stop codon UAG.
 
-* You can find more information about TALENs, mitochondrial base editors, the FusX assembly system, and TALE Writer here:
+* More information on TALENs, mitochondrial editors, the FusX assembly system, and TALE Writer here:
 
-  * [CRISPR-free mitochondrial base editing paper](https://www.nature.com/articles/s41586-020-2477-4)
-  * [FusX TALE base editor (FusXTBE) paper](https://www.liebertpub.com/doi/full/10.1089/crispr.2021.0061)
-  * [FusX assembly system paper](https://www.liebertpub.com/doi/10.1089/hum.2015.172?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub++0pubmed)
+  * [CRISPR-free mitochondrial C-to-T base editing](https://www.nature.com/articles/s41586-020-2477-4)
+  * [Targeted A-to-G base editing in human mitochondrial DNA](https://www.sciencedirect.com/science/article/pii/S0092867422003890?via%3Dihub)
+  * [The FusX TALE base editor (FusXTBE) platform](https://www.liebertpub.com/doi/full/10.1089/crispr.2021.0061)
+  * [The FusX system for rapid TALE assembly](https://www.liebertpub.com/doi/10.1089/hum.2015.172?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub++0pubmed)
   * [TALE Writer on GitHub](https://github.com/srcastillo/TALE-Writer)
 
 ## Citing this work
